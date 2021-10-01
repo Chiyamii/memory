@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    background-color: rgb(253, 216, 78);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+}
+
+header form button {
+    padding: .5rem 1rem;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header div p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: repeat(auto, 4);
+    padding-left: 47px;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.memoryCard {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 1rem;
+}
+
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.frontside {
+    border-radius: .5rem;
+}
+
+.backside {
+    position: absolute;
+    border-radius: .5rem;
+    border: 2px solid white;
+}
